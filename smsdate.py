@@ -1,4 +1,3 @@
-import csv
 from datetime import datetime
 import urllib.request, urllib.error, urllib.parse
 from bs4 import BeautifulSoup
