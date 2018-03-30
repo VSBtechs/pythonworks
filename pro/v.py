@@ -16,14 +16,14 @@ tree = TreeClassifier(extractor)
 trainPaths = ['/home/virat/Desktop/pyw/ML/virat/pro/hand/train1/','/home/virat/Desktop/pyw/ML/virat/pro/hand/train2/']
 testPaths = ['/home/virat/Desktop/pyw/ML/virat/pro/hand/test1/','/home/virat/Desktop/pyw/ML/virat/pro/hand/test2/']
 
-classes = ['shapev','faces']
+classes = ['apple','banana']
 
-print svm.train(trainPaths,classes,verbose=True)
+#print svm.train(trainPaths,classes,verbose=True)
 print tree.train(trainPaths,classes,verbose=True)
 
 print '------------------------------------------------'
 
-print svm.test(testPaths,classes,verbose=True)
+#print svm.test(testPaths,classes,verbose=True)
 print tree.test(testPaths,classes,verbose=True)
 
 import random
@@ -35,5 +35,5 @@ test = test[0:10]
 
 for t in test :
  className = tree.classify(t)
- t.drawText(classNmae,10,10,fontsize=60,color=Color.RED)
+ t.drawText(className,1,10,fontsize=60,color=Color.RED)
  t.show()
