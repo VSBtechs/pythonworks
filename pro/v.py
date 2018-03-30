@@ -16,7 +16,7 @@ tree = TreeClassifier(extractor)
 trainPaths = ['/home/virat/Desktop/pyw/ML/virat/pro/hand/train1/','/home/virat/Desktop/pyw/ML/virat/pro/hand/train2/']
 testPaths = ['/home/virat/Desktop/pyw/ML/virat/pro/hand/test1/','/home/virat/Desktop/pyw/ML/virat/pro/hand/test2/']
 
-classes = ['apple','banana']
+classes = ['shapev','faces']
 
 #print svm.train(trainPaths,classes,verbose=True)
 print tree.train(trainPaths,classes,verbose=True)
