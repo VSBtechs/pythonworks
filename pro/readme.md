@@ -1,4 +1,4 @@
-# Using SimpleCv and ML tools predict the type of image in a test set.
+# Using SimpleCv and Machine Learning tools predicting the type(shape) of image in given test set of images. 
  - Extract the features
  - Train the Classifier
  - Classifiers used - SVM & Decision Tress
