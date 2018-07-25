@@ -9,3 +9,5 @@
 ### 04 Code for Kaggle -Titanic "Who must be saved?"(titanicsaved.py)
 
 ### 05 Web application for cab booking.(Using Flask,HTML,CSS,JS,BOOTSTRAP)(myproject.tar.gz)
+
+### 06 Quick search script for finding answers of a trivia game. (swal.py) 
